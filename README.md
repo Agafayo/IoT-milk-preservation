@@ -1,6 +1,4 @@
 # IoT-milk-preservation
-# IoT Milk Preservation Project
-
 ## Overview
 This project simulates an IoT system for monitoring **temperature** and **humidity** to preserve milk under optimal conditions. It uses an **ESP32 microcontroller**, a **DHT22 sensor**, an **LCD display**, RGB LEDs, a relay, and a buzzer. The system provides real-time alerts when conditions are unsafe.
 
