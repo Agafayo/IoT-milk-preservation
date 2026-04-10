@@ -1,6 +1,6 @@
 # IoT-milk-preservation
 ## Overview
-This project simulates an IoT system for monitoring **temperature** and **humidity** to preserve milk under optimal conditions. Controlling temperature variations is crucial as it directly affects the rate of bacterial growth, determining the overall shelf-life and safety of the milk. It uses an **ESP32 microcontroller**, a **DHT22 sensor**, an **LCD display**, RGB LEDs, a relay, and a buzzer. The system provides real-time alerts when conditions are unsafe.
+This project simulates an IoT system for monitoring **temperature** and **humidity** to preserve milk under optimal conditions. Controlling temperature variations is crucial as it directly affects the rate of bacterial growth, determining the overall shelf-life and safety of the milk. The combination of these factors (Temperature and Humidity) is often measured using the Temperature-Humidity Index (THI), with values exceeding 72 typically causing heat stress and reduced milk composition (fat, protein, solids-not-fat). It uses an **ESP32 microcontroller**, a **DHT22 sensor**, an **LCD display**, RGB LEDs, a relay, and a buzzer. The system provides real-time alerts when conditions are unsafe.
 
 ## Features
 - Reads temperature and humidity using DHT22
